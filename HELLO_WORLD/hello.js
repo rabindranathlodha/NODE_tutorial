@@ -1,1 +1,3 @@
-console.log('Hello, World!');
+const math = require('./math.js');
+
+console.log(math.add(16, 26)); // 42
